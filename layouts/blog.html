@@ -1,0 +1,5 @@
+<h2><em><%= @item[:title] %></em></h2>
+<% (@site.sorted_articles[0..4]).each do |post| %>
+  <%= link_to(post[:title], post.path) %>
+  <%= post[:created_at] %> 
+<% end %>

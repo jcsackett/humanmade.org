@@ -17,6 +17,19 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
+compile '/blog/' do
+    filter :kramdown
+    layout 'blog'
+    layout 'default'
+end
+
+compile '/blog/*/' do
+    filter :kramdown
+    layout 'post'
+    layout 'blog'
+    layout 'default'
+end
+
 compile '/' do
     filter :kramdown
     layout 'default'

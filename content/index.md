@@ -1,9 +1,6 @@
 ---
 title: Home
 ---
-humanmade
-=========
-
 j.c.sackett is a coder and writer and this is his internet home.
 
 ## Code
