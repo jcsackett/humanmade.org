@@ -13,6 +13,10 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+compile '/blog/feed/' do
+    filter :erb
+end
+
 compile '/stylesheet/' do
   # don’t filter or layout
 end
@@ -41,6 +45,10 @@ compile '*' do
     filter :erb
     layout 'default'
   end
+end
+
+route '/blog/feed/' do
+    '/blog.xml'
 end
 
 route '/stylesheet/' do

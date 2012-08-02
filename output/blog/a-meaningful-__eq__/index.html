@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>humanmade - A Meaningful __eq__</title>
+    <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+    <div id="main">
+      <h1>humanmade</h1>
+      <h2>[<em>indecipherable shouting</em>]</h2>
+<h3><a href="/blog/a-meaningful-__eq__/">A Meaningful __eq__</a></h3>
+<p class="created_at">July 15, 2008, 5:10 pm</p>
+<div><p>While investigating a bug in a recent project of mine I had the following perplexing experience in my python interpreter:</p>
+<p><code> &gt;&gt;&gt;tokens[0] == retoks[0]<br /> True <br /> &gt;&gt;&gt;tokens[0] != tokens[0] <br /> True <br /></code></p>
+<p>This didn&#8217;t at first glance appear to make any sense. The object here, Token, had a defined <code>__eq__</code> function, which checked the equality of a small subset of Token&#8217;s attributes. So how could something that basically checks that <code>x == x</code> and <code>y == y</code> return both <code>True</code> and <code>False</code>?</p>
+<p>The answer lies in how rich comparison and equality actually works in python, and those who are familiar with the peculiarity at work here are already laughing at me.  Everything decended from <code>Object</code>, which is to say, every class you&#8217;ve ever written, has a built in function called __eq__. If you don&#8217;t override it, it operates largely in the same way as <code>is</code>&#8212;memory location comparison. One might be tempted to assume that if <code>__eq__</code> returned false, than those two objects are not equal.</p>
+<p>This is where another function, <code>__ne__</code> comes in and mucks up your assumptions. <code>__ne__</code> is the function that says two objects are not equal, and if you don&#8217;t override it, it defaults to returning the inverse of <code>is</code>. This explains the weird issue I found in my interpreter. While the two objects had the same values in their attributes, they weren&#8217;t the same object, so both <code>__eq__</code> and <code>__ne__</code> returned true.</p>
+<p>This two functions for not/equals thing is weird, but there&#8217;s a good reason for it. One could hypothetically have a function for which determining equality required confirming a bunch of things, but confirming inequality only needed to compare one piece of the object&#8212;in that instance, it would be a waste to do everything <code>__eq__</code> does.  Of course, there&#8217;s a strong argument that the loss of performance would result in more obvious and readable code, and the old maxim <i>programmer time is worth more than processor time would seem to apply, </i>but still, at least there&#8217;s a good reason, right?</p>
+<p>What there&#8217;s not a good reason for is the lack of meaningfullness in these two operations, and the fact that one can&#8217;t default based on the other. I&#8217;d much rather see the following defaults:</p>
+<p><code> def Object.__eq__(self, other_object):<br /> return (sorted(self.__dict__.values()) == <br /> sorted(other_object.__dict__.values()) <br /><br /> def Object.__ne__(self, other_object): <br /> return not self.__eq__(other_object) <br /></code></p>
+<p>This, to my mind, has three advantages. One, the defaults for the two functions are much more meaningful than defaulting to <code>is</code>. Two, it follows the idea that there should generally be one obvious way to do something. Equality of values is in <code>__eq__</code> and equality of memory location is in <code>is</code>. Three, it follows a much more human definition of equality and not equality&#8212;that is, one is always the opposite of the other.</p>
+<p>I&#8217;m curious what you all think. Drop a comment.</p></div>
+
+
+    </div>
+  </body>
+</html>

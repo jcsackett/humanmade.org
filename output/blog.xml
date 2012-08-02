@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://humanmade.org/</id>
+  <title>humanmade - indecipherable shouting</title>
+  <updated>2012-06-24T04:00:00Z</updated>
+  <link rel="alternate" href="http://humanmade.org/"/>
+  <link rel="self" href="http://humanmade.org/blog.xml"/>
+  <author>
+    <name>j.c.sackett</name>
+    <uri>http://humanmade.org</uri>
+  </author>
+  <entry>
+    <id>tag:humanmade.org,2012-06-24:/blog/distraction-and-the-idiot-box/</id>
+    <title type="html">Distraction and the New Idiot Box</title>
+    <published>2012-06-24T04:00:00Z</published>
+    <updated>2012-06-24T04:00:00Z</updated>
+    <link rel="alternate" href="http://humanmade.org/blog/distraction-and-the-idiot-box/"/>
+    <content type="html">
+</content>
+  </entry>
+  <entry>
+    <id>tag:humanmade.org,2012-04-04:/blog/cha-cha-changes!/</id>
+    <title type="html">Cha-cha-changes!</title>
+    <published>2012-04-04T15:56:00Z</published>
+    <updated>2012-04-04T15:56:00Z</updated>
+    <link rel="alternate" href="http://humanmade.org/blog/cha-cha-changes!/"/>
+    <content type="html">&lt;div&gt;&lt;p&gt;Periodically I get this overwhelming urge to redo the way I exist on the internet. The last time this happened I tore down an aging textile install and switched over to tumblr for pretty much everything.&lt;/p&gt;
+&lt;p&gt;This time?&lt;/p&gt;
+&lt;p&gt;Tumblr will remain; or at least, the tumblr account will remain. I will continue posting links, videos, pictures, &amp;amp;c on it. Textual content of any substantiative nature is going to be migrated to a statically generated blog managed via &lt;a href="http://nanoc.stoneship.org/"&gt;nanoc&lt;/a&gt;. That&amp;#8217;s going to live at the current subdomain for this tumblr, in all likelihood. If you follow this via the dashboard, you&amp;#8217;re going to be fine. If you follow this by RSS, well, all my rss shit is likely to be changing. I&amp;#8217;ll keep you apprised.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://1fp.humanmade.org"&gt;1fp&lt;/a&gt; is going to be archived. I&amp;#8217;m pulling all of the content out of tumblr and will be putting together static pages that keep it all together. That&amp;#8217;s likely going to happen a goodly while after the initial reordering of subdomains, rss feeds, &amp;amp;c.&lt;/p&gt;
+&lt;p&gt;This is still some weeks off.&lt;sup id="fnref:p20469961302-1"&gt;&lt;a href="#fn:p20469961302-1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; But since things may fail in unexpected ways as I try to roll stuff out, there&amp;#8217;s a good chance I may not realize I need to warn you of a change before it&amp;#8217;s too late.&lt;sup id="fnref:p20469961302-2"&gt;&lt;a href="#fn:p20469961302-2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;So, I guess you&amp;#8217;ve been warned.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr /&gt;&lt;ol&gt;&lt;li id="fn:p20469961302-1"&gt;
+&lt;p&gt;And knowing me, may very well &lt;em&gt;never actually happen&lt;/em&gt;.&#160;&lt;a href="#fnref:p20469961302-1" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:p20469961302-2"&gt;
+&lt;p&gt;Also, it helps for me to blather on about things like this to help me sort out what I&amp;#8217;m actually doing.&#160;&lt;a href="#fnref:p20469961302-2" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:humanmade.org,2012-03-16:/blog/colocation-with-bazaar-(the-glorious-fix!)/</id>
+    <title type="html">Colocation with Bazaar (the glorious fix!)</title>
+    <published>2012-03-16T20:36:00Z</published>
+    <updated>2012-03-16T20:36:00Z</updated>
+    <link rel="alternate" href="http://humanmade.org/blog/colocation-with-bazaar-(the-glorious-fix!)/"/>
+    <content type="html">&lt;div&gt;&lt;p&gt;Last I &lt;a href="http://blog.humanmade.org/post/19018238488/colocation-with-bazaar"&gt;blogged about bzr&lt;/a&gt;, I complained about screwing up my use of
+&lt;code&gt;bzr lp-propose&lt;/code&gt;. As suspected, this was entirely my fault, and there is one
+line to fix it.&lt;/p&gt;
+&lt;p&gt;In my locations.conf file I added the following.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[/home/jc/Code/launchpad/devel/.bzr/branches/devel]
+public_branch = bzr+ssh://bazaar.launchpad.net/~launchpad-pqm/launchpad/devel
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The public branch for your trunk is pretty important, as it turns out. So, bzr
+becomes a little bit closer for me, and if you&amp;#8217;re following along and using
+it, hopefully for you too.&lt;/p&gt;&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:humanmade.org,2012-03-09:/blog/colocation-with-bazaar/</id>
+    <title type="html">Colocation with Bazaar</title>
+    <published>2012-03-09T21:40:00Z</published>
+    <updated>2012-03-09T21:40:00Z</updated>
+    <link rel="alternate" href="http://humanmade.org/blog/colocation-with-bazaar/"/>
+    <content type="html">&lt;div&gt;&lt;p&gt;(&lt;strong&gt;&lt;em&gt;UPDATE GUYS&lt;/em&gt;&lt;/strong&gt;: I fixed the problem outlined in this post. Please go ahead and finish reading it, but then &lt;a href="http://blog.humanmade.org/post/19410890644/colocation-with-bazaar-the-glorious-fix"&gt;go here&lt;/a&gt; to read about what was missing.)&lt;/p&gt;
+&lt;p&gt;I use Bazaar (bzr) for work. On just about everything else, I use git. I like
+both&amp;#8212;for very different reasons&amp;#8212;and basically just use whichver one the code
+I&amp;#8217;m working on is primarily available. So work, bzr, and side projects (which
+began on github), git.&lt;/p&gt;
+&lt;p&gt;The only real oddity this creates for me has to do with branching. Git
+colocates its branches by default. You have one working directory, and the
+contents of that directory may change as you switch between branches. All the
+history and metadata about the branch is hidden away in the .git directory.&lt;/p&gt;
+&lt;p&gt;Bazaar puts each branch in its own directory&amp;#8212;switching branches means
+changing the directory you&amp;#8217;re in, rather than changing the contents of your
+current directory.&lt;sup id="fnref:p19018238488-1"&gt;&lt;a href="#fn:p19018238488-1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; This is actually a really good system for the novice
+DVCS user. New branches are new directories, what could be simpler? But if
+you&amp;#8217;re used to branching in git (or mercurial for that matter) it&amp;#8217;s a little
+weird.&lt;/p&gt;
+&lt;p&gt;To address this, there&amp;#8217;s a plugin named bzr-colo. Bzr colo lets you work with
+branches the way you would with other DVCSes. Since for work I use a shared
+repository with a ton of little branches, I thought setting up a single
+directory with colocated branches for launchpad work would be cool.&lt;/p&gt;
+&lt;h3&gt;The experiment&lt;/h3&gt;
+&lt;p&gt;Setting things up seemed pretty easy.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;bzr branch lp:launchpad ./devel
+cd devel
+bzr colo-ify
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I also added some stuff in my &lt;code&gt;locations.conf&lt;/code&gt; so &lt;code&gt;bzr push&lt;/code&gt; and the like
+worked properly.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[/home/jc/Code/launchpad/devel/.bzr/branches]
+public_branch = bzr+ssh://bazaar.launchpad.net/~jcsackett/launchpad
+public_branch:policy = appendpath
+
+push_location = lp:~jcsackett/launchpad
+push_location:policy = appendpath
+
+submit_branch = /home/jc/Code/launchpad/devel/.bzr/branches/devel/
+submit_to = merge@code.launchpad.net
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This sort of echoes the setup of our shared repo setup as established by our
+&lt;a href="http://bazaar.launchpad.net/~launchpad-pqm/launchpad/devel/view/head:/utilities/rocketfuel-setup"&gt;recommended setup&lt;/a&gt;. I had to rename the default branch in my colocated
+directory as well, since bzr-colo wants to call it trunk.&lt;/p&gt;
+&lt;p&gt;With this setup, I started a new branch with &lt;code&gt;bzr colo-branch&lt;/code&gt; and got to
+work.&lt;/p&gt;
+&lt;h3&gt;The results&lt;/h3&gt;
+&lt;p&gt;For the most part, things worked as I expected. I was able to &lt;code&gt;bzr pull&lt;/code&gt; into
+devel, and bzr merge from it into my current branch. &lt;code&gt;bzr push&lt;/code&gt; worked as
+expected too. Everything seemed groovy.&lt;/p&gt;
+&lt;p&gt;Then I hit my one snag.&lt;/p&gt;
+&lt;p&gt;I attempted to submit my branch for code review using &lt;code&gt;bzr lp-propose&lt;/code&gt;. Sadly,
+the branch I was evidently proposing against was
+lp:~jcsackett/launchpad/devel, rather than lp:launchpad.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m pretty sure this is a problem in my locations.conf; I will be the first to
+admit I don&amp;#8217;t know entirely what all of those settings mean, or how they are
+used. I hope to get that problem sorted and go back to using this setup
+soon, and will post a follow up when I do.&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr /&gt;&lt;ol&gt;&lt;li id="fn:p19018238488-1"&gt;
+&lt;p&gt;For the most part, that is. Bazaar has &lt;em&gt;lots&lt;/em&gt; of options, and with
+lightweight checkouts and shared repositories you can end up with a single
+working directory you switch in, but the branches are still all separate ones
+at the same layer in the file tree. It&amp;#8217;s handy, but gets confusing.&#160;&lt;a href="#fnref:p19018238488-1" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:humanmade.org,2011-12-07:/blog/manic-pixie-dream-boy?/</id>
+    <title type="html">Manic Pixie Dream Boy?</title>
+    <published>2011-12-07T13:19:00Z</published>
+    <updated>2011-12-07T13:19:00Z</updated>
+    <link rel="alternate" href="http://humanmade.org/blog/manic-pixie-dream-boy?/"/>
+    <content type="html">&lt;div&gt;&lt;p&gt;So last night in a conversation that was sort of all over the place, I ended up explaining the concept of the &lt;a href="http://en.wikipedia.org/wiki/Manic_Pixie_Dream_Girl"&gt;Manic Pixie Dream Girl&lt;/a&gt; to a friend&lt;sup id="fnref:p13871435934-1"&gt;&lt;a href="#fn:p13871435934-1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Intrigued, he apparently googled it at home, and found out that it&amp;#8217;s been subverted&amp;#8212;or at least lampshaded&amp;#8212;in a few movies.&lt;/p&gt;
+&lt;p&gt;Which made me wonder. Hollywood loves being &amp;#8220;creative&amp;#8221; by doing the obvious inversion of a trope. So is there a movie with a Manic Pixie Dream Boy? And if not, why not?&lt;/p&gt;
+&lt;div class="footnotes"&gt;
+&lt;hr /&gt;&lt;ol&gt;&lt;li id="fn:p13871435934-1"&gt;
+&lt;p&gt;The Zooey Deschanel show was on. It was contextually relevant, if only just.&#160;&lt;a href="#fnref:p13871435934-1" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+  </entry>
+</feed>
