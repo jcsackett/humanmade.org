@@ -1,5 +1,5 @@
 <h2>[<em>indecipherable shouting</em>]</h2>
-<% (@site.sorted_articles[0..4]).each do |post| %>
+<% sorted_articles.each do |post| %>
   <p>
     <%= link_to(post[:title], post.path) %>
     <%= post[:created_at] %> 
