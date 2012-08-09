@@ -81,6 +81,6 @@ watcher:
 
 # Deployment
 deploy:
-  public:
+  default:
     kind: rsync
     dst:  "humanmade.org:/var/www/humanmade"
