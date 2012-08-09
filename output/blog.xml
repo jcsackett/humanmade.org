@@ -2,22 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://humanmade.org/</id>
   <title>humanmade - indecipherable shouting</title>
-  <updated>2012-06-24T04:00:00Z</updated>
+  <updated>2012-04-04T15:56:00Z</updated>
   <link rel="alternate" href="http://humanmade.org/"/>
   <link rel="self" href="http://humanmade.org/blog.xml"/>
   <author>
     <name>j.c.sackett</name>
     <uri>http://humanmade.org</uri>
   </author>
-  <entry>
-    <id>tag:humanmade.org,2012-06-24:/blog/distraction-and-the-idiot-box/</id>
-    <title type="html">Distraction and the New Idiot Box</title>
-    <published>2012-06-24T04:00:00Z</published>
-    <updated>2012-06-24T04:00:00Z</updated>
-    <link rel="alternate" href="http://humanmade.org/blog/distraction-and-the-idiot-box/"/>
-    <content type="html">
-</content>
-  </entry>
   <entry>
     <id>tag:humanmade.org,2012-04-04:/blog/cha-cha-changes!/</id>
     <title type="html">Cha-cha-changes!</title>
@@ -142,6 +133,23 @@ at the same layer in the file tree. It&amp;#8217;s handy, but gets confusing.&#1
 &lt;p&gt;The Zooey Deschanel show was on. It was contextually relevant, if only just.&#160;&lt;a href="#fnref:p13871435934-1" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:humanmade.org,2011-10-12:/blog/an-open-letter-to-activist-groups/</id>
+    <title type="html">An Open Letter To Activist Groups</title>
+    <published>2011-10-12T13:45:00Z</published>
+    <updated>2011-10-12T13:45:00Z</updated>
+    <link rel="alternate" href="http://humanmade.org/blog/an-open-letter-to-activist-groups/"/>
+    <content type="html">&lt;div&gt;&lt;p&gt;Dear Activist Groups, Reform Groups, Interest Groups, and Other People Who Keep Emailing Me To Write My CongressPerson,&lt;/p&gt;
+&lt;p&gt;I know that we started off well. I did a lot of stuff with DemandProgress and the EFF. And I&amp;#8217;m still big on an open internet, getting rid of censorship, removing the Patriot Act, and so on.&lt;/p&gt;
+&lt;p&gt;But.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m not sure which of you did it, but a lot of people seem to have my email address now. And all of you email me some sort of call to action, or ask for help, or time, or money, about 2 to 3 times a week.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m tired.&lt;/p&gt;
+&lt;p&gt;For awhile, I tried to keep up. I&amp;#8217;d read the emails, figure out if it was worth it to me, and then schedule some time to call Burr and Hagan. If it wasn&amp;#8217;t worth it to me, I deleted that email, and if it was a group I wasn&amp;#8217;t interested in, I got off the mailing list.&lt;/p&gt;
+&lt;p&gt;But the situation didn&amp;#8217;t improve. And I&amp;#8217;m tired. So now, I delete your goddamn emails. You could&amp;#8217;ve eased off a little. You could have not &lt;em&gt;given away my email address&lt;/em&gt;. You could have done a lot of things differently. But it seems to be too late. I&amp;#8217;m tired, and I&amp;#8217;m deleting your shit.&lt;/p&gt;
+&lt;p&gt;Sincerely,
+Me&lt;/p&gt;&lt;/div&gt;
 </content>
   </entry>
 </feed>

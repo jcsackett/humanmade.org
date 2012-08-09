@@ -10,7 +10,7 @@
   <body>
     <div id="main">
       <h1>humanmade</h1>
-      <h2>[<em>indecipherable shouting</em>]</h2>
+      <h2><em>the bloggy thing</em></h2>
 <h3><a href="/blog/a-meaningful-__eq__/">A Meaningful __eq__</a></h3>
 <p class="created_at">July 15, 2008, 5:10 pm</p>
 <div><p>While investigating a bug in a recent project of mine I had the following perplexing experience in my python interpreter:</p>
@@ -23,6 +23,19 @@
 <p><code> def Object.__eq__(self, other_object):<br /> return (sorted(self.__dict__.values()) == <br /> sorted(other_object.__dict__.values()) <br /><br /> def Object.__ne__(self, other_object): <br /> return not self.__eq__(other_object) <br /></code></p>
 <p>This, to my mind, has three advantages. One, the defaults for the two functions are much more meaningful than defaulting to <code>is</code>. Two, it follows the idea that there should generally be one obvious way to do something. Equality of values is in <code>__eq__</code> and equality of memory location is in <code>is</code>. Three, it follows a much more human definition of equality and not equality&#8212;that is, one is always the opposite of the other.</p>
 <p>I&#8217;m curious what you all think. Drop a comment.</p></div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'humanmade';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
     </div>
