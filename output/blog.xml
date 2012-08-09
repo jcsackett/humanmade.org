@@ -2,13 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://humanmade.org/</id>
   <title>humanmade - indecipherable shouting</title>
-  <updated>2012-04-04T15:56:00Z</updated>
+  <updated>2012-08-09T16:27:00Z</updated>
   <link rel="alternate" href="http://humanmade.org/"/>
   <link rel="self" href="http://humanmade.org/blog.xml"/>
   <author>
     <name>j.c.sackett</name>
     <uri>http://humanmade.org</uri>
   </author>
+  <entry>
+    <id>tag:humanmade.org,2012-08-09:/blog/everything-changed/</id>
+    <title type="html">Everything Changes</title>
+    <published>2012-08-09T16:27:00Z</published>
+    <updated>2012-08-09T16:27:00Z</updated>
+    <link rel="alternate" href="http://humanmade.org/blog/everything-changed/"/>
+    <content type="html">&lt;p&gt;Hey, the new site setup &lt;a href="http://humanmade.org/blog/cha-cha-changes!/"&gt;referenced before&lt;/a&gt; is live! Sadly, this does mean
+you need to update your bookmarks and/or feeds.&lt;/p&gt;
+
+&lt;h2 id="humanmadeorg"&gt;humanmade.org&lt;/h2&gt;
+
+&lt;p&gt;The main page of humanmade is much as it always was. New colors, but that&amp;rsquo;s
+about it. It&amp;rsquo;s all running on nanoc now, which is pretty nice. The blog is
+accessible from &lt;a href="http://humanmade.org/blog/"&gt;humanmade.org/blog/&lt;/a&gt; and &lt;a href="http://blog.humanmade.org/"&gt;blog.humanmade.org&lt;/a&gt;. At some
+point the latter will become a redirect to the former, but for now we&amp;rsquo;ll leave
+it as is.&lt;/p&gt;
+
+&lt;p&gt;The feed is &lt;a href="http://humanmade.org/blog.xml"&gt;humanmade.org/blog.xml&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="tumblr"&gt;tumblr&lt;/h2&gt;
+
+&lt;p&gt;I still love tumblr, and I&amp;rsquo;m not leaving it. The tumblr lives on at
+&lt;a href="http://tumblr.humanmade.org/"&gt;tumblr.humanmade.org&lt;/a&gt;. Random links, videos, images, and so on will
+continue to be posted there. Additionally, anything posted here will be
+crossposted to tumblr via &lt;a href="http://ifttt.com/"&gt;IFTTT&lt;/a&gt;. So if you just want to follow tumblr
+stuff, that&amp;rsquo;s fine.&lt;/p&gt;
+
+&lt;p&gt;The feed there is &lt;a href="http://tumblr.humanmade.org/rss/"&gt;tumblr.humanmade.org/rss&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="why-the-change"&gt;Why the change?&lt;/h2&gt;
+
+&lt;p&gt;Obviously, given everything is still feeding in to tumblr, I have no problem
+with it. But increasingly, I do feel the need to own my stuff. Which is to
+say, if you&amp;rsquo;re reading this on my site, &lt;em&gt;all of this is mine&lt;/em&gt;. The content all
+lives on my computer, and in my git repos, and on my server. I don&amp;rsquo;t have to
+export it weirdly using a tool that only works on OS X. I don&amp;rsquo;t have to munge
+that data to get it back into nice plain markdown. I own this, and I make it
+do what I want it to do.&lt;/p&gt;
+
+&lt;h2 id="fp"&gt;1fp?&lt;/h2&gt;
+
+&lt;p&gt;1fp still lives at &lt;a href="http://1fp.humanmade.org/"&gt;1fp.humanmade.org&lt;/a&gt;. I think I will probably resume it soon,
+in some form.&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <id>tag:humanmade.org,2012-04-04:/blog/cha-cha-changes!/</id>
     <title type="html">Cha-cha-changes!</title>
@@ -133,23 +179,6 @@ at the same layer in the file tree. It&amp;#8217;s handy, but gets confusing.&#1
 &lt;p&gt;The Zooey Deschanel show was on. It was contextually relevant, if only just.&#160;&lt;a href="#fnref:p13871435934-1" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:humanmade.org,2011-10-12:/blog/an-open-letter-to-activist-groups/</id>
-    <title type="html">An Open Letter To Activist Groups</title>
-    <published>2011-10-12T13:45:00Z</published>
-    <updated>2011-10-12T13:45:00Z</updated>
-    <link rel="alternate" href="http://humanmade.org/blog/an-open-letter-to-activist-groups/"/>
-    <content type="html">&lt;div&gt;&lt;p&gt;Dear Activist Groups, Reform Groups, Interest Groups, and Other People Who Keep Emailing Me To Write My CongressPerson,&lt;/p&gt;
-&lt;p&gt;I know that we started off well. I did a lot of stuff with DemandProgress and the EFF. And I&amp;#8217;m still big on an open internet, getting rid of censorship, removing the Patriot Act, and so on.&lt;/p&gt;
-&lt;p&gt;But.&lt;/p&gt;
-&lt;p&gt;I&amp;#8217;m not sure which of you did it, but a lot of people seem to have my email address now. And all of you email me some sort of call to action, or ask for help, or time, or money, about 2 to 3 times a week.&lt;/p&gt;
-&lt;p&gt;I&amp;#8217;m tired.&lt;/p&gt;
-&lt;p&gt;For awhile, I tried to keep up. I&amp;#8217;d read the emails, figure out if it was worth it to me, and then schedule some time to call Burr and Hagan. If it wasn&amp;#8217;t worth it to me, I deleted that email, and if it was a group I wasn&amp;#8217;t interested in, I got off the mailing list.&lt;/p&gt;
-&lt;p&gt;But the situation didn&amp;#8217;t improve. And I&amp;#8217;m tired. So now, I delete your goddamn emails. You could&amp;#8217;ve eased off a little. You could have not &lt;em&gt;given away my email address&lt;/em&gt;. You could have done a lot of things differently. But it seems to be too late. I&amp;#8217;m tired, and I&amp;#8217;m deleting your shit.&lt;/p&gt;
-&lt;p&gt;Sincerely,
-Me&lt;/p&gt;&lt;/div&gt;
 </content>
   </entry>
 </feed>
