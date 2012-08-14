@@ -2,6 +2,7 @@
 kind: article
 created_at: August 09, 2012 12:27pm
 title: Everything Changes
+tags: blog meta
 ---
 
 Hey, the new site setup [referenced before][0] is live! Sadly, this does mean
