@@ -2,13 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://humanmade.org/</id>
   <title>humanmade - indecipherable shouting</title>
-  <updated>2012-08-09T16:27:00Z</updated>
+  <updated>2012-10-24T18:10:00Z</updated>
   <link rel="alternate" href="http://humanmade.org/"/>
   <link rel="self" href="http://humanmade.org/blog.xml"/>
   <author>
     <name>j.c.sackett</name>
     <uri>http://humanmade.org</uri>
   </author>
+  <entry>
+    <id>tag:humanmade.org,2012-10-24:/blog/not-the-same/</id>
+    <title type="html">Not the Same</title>
+    <published>2012-10-24T18:10:00Z</published>
+    <updated>2012-10-24T18:10:00Z</updated>
+    <link rel="alternate" href="http://humanmade.org/blog/not-the-same/"/>
+    <content type="html">&lt;h1 id="not-the-same"&gt;Not the Same&lt;/h1&gt;
+
+&lt;p&gt;There’s a common complaint I’ve been hearing voiced more and more as we draw closer to the end of this election season:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The two candidates are the same.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve heard this voiced by socialists who are unhappy that both Obama and Romney have talked about scaling back government spending; ignoring or not caring that the two candidates have very different approaches to that, programs in mind, and outcomes they’re shooting for.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The two candidates are the same.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve heard this said by libertarians angry that neither candidate is going to overturn our banking system. That one candidate wants to roll regulation back even further, making the problem even worse, seems to be unimportant.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The two candidates are the same.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve heard this from all sorts of people who are angry that war continues under Obama. Who are angry that both candidates seem happy with NDAA and drones and questionably legal practices.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The two candidates &lt;strong&gt;&lt;em&gt;are not&lt;/em&gt;&lt;/strong&gt; the same.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The people I have heard make this complaint are wrong. &lt;/p&gt;
+
+&lt;p&gt;When one candidate has repealed DADT and the other has shown no interest in gay rights, you cannot tell me they are the same. When one candidate signs the Lily Ledbetter Fair Pay act and the other one opposed it, you cannot tell me they are the same. And when one has made gay marriage a part of his party’s platform and the other told gay parents he didn’t know gay people “had families” you &lt;em&gt;cannot&lt;/em&gt; tell me they are the same.&lt;/p&gt;
+
+&lt;p&gt;I am tired of this complaint.&lt;/p&gt;
+
+&lt;p&gt;They are not the same.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:humanmade.org,2012-08-09:/blog/everything-changed/</id>
     <title type="html">Everything Changes</title>
@@ -20,21 +61,21 @@ you need to update your bookmarks and/or feeds.&lt;/p&gt;
 
 &lt;h2 id="humanmadeorg"&gt;humanmade.org&lt;/h2&gt;
 
-&lt;p&gt;The main page of humanmade is much as it always was. New colors, but that&amp;rsquo;s
-about it. It&amp;rsquo;s all running on nanoc now, which is pretty nice. The blog is
+&lt;p&gt;The main page of humanmade is much as it always was. New colors, but that’s
+about it. It’s all running on nanoc now, which is pretty nice. The blog is
 accessible from &lt;a href="http://humanmade.org/blog/"&gt;humanmade.org/blog/&lt;/a&gt; and &lt;a href="http://blog.humanmade.org/"&gt;blog.humanmade.org&lt;/a&gt;. At some
-point the latter will become a redirect to the former, but for now we&amp;rsquo;ll leave
+point the latter will become a redirect to the former, but for now we’ll leave
 it as is.&lt;/p&gt;
 
 &lt;p&gt;The feed is &lt;a href="http://humanmade.org/blog.xml"&gt;humanmade.org/blog.xml&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id="tumblr"&gt;tumblr&lt;/h2&gt;
 
-&lt;p&gt;I still love tumblr, and I&amp;rsquo;m not leaving it. The tumblr lives on at
+&lt;p&gt;I still love tumblr, and I’m not leaving it. The tumblr lives on at
 &lt;a href="http://tumblr.humanmade.org/"&gt;tumblr.humanmade.org&lt;/a&gt;. Random links, videos, images, and so on will
 continue to be posted there. Additionally, anything posted here will be
 crossposted to tumblr via &lt;a href="http://ifttt.com/"&gt;IFTTT&lt;/a&gt;. So if you just want to follow tumblr
-stuff, that&amp;rsquo;s fine.&lt;/p&gt;
+stuff, that’s fine.&lt;/p&gt;
 
 &lt;p&gt;The feed there is &lt;a href="http://tumblr.humanmade.org/rss/"&gt;tumblr.humanmade.org/rss&lt;/a&gt;.&lt;/p&gt;
 
@@ -42,9 +83,9 @@ stuff, that&amp;rsquo;s fine.&lt;/p&gt;
 
 &lt;p&gt;Obviously, given everything is still feeding in to tumblr, I have no problem
 with it. But increasingly, I do feel the need to own my stuff. Which is to
-say, if you&amp;rsquo;re reading this on my site, &lt;em&gt;all of this is mine&lt;/em&gt;. The content all
-lives on my computer, and in my git repos, and on my server. I don&amp;rsquo;t have to
-export it weirdly using a tool that only works on OS X. I don&amp;rsquo;t have to munge
+say, if you’re reading this on my site, &lt;em&gt;all of this is mine&lt;/em&gt;. The content all
+lives on my computer, and in my git repos, and on my server. I don’t have to
+export it weirdly using a tool that only works on OS X. I don’t have to munge
 that data to get it back into nice plain markdown. I own this, and I make it
 do what I want it to do.&lt;/p&gt;
 
@@ -69,10 +110,10 @@ in some form.&lt;/p&gt;
 &lt;p&gt;So, I guess you&amp;#8217;ve been warned.&lt;/p&gt;
 &lt;div class="footnotes"&gt;
 &lt;hr /&gt;&lt;ol&gt;&lt;li id="fn:p20469961302-1"&gt;
-&lt;p&gt;And knowing me, may very well &lt;em&gt;never actually happen&lt;/em&gt;.&#160;&lt;a href="#fnref:p20469961302-1" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And knowing me, may very well &lt;em&gt;never actually happen&lt;/em&gt;. &lt;a href="#fnref:p20469961302-1" rev="footnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:p20469961302-2"&gt;
-&lt;p&gt;Also, it helps for me to blather on about things like this to help me sort out what I&amp;#8217;m actually doing.&#160;&lt;a href="#fnref:p20469961302-2" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also, it helps for me to blather on about things like this to help me sort out what I&amp;#8217;m actually doing. &lt;a href="#fnref:p20469961302-2" rev="footnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
 </content>
@@ -160,23 +201,7 @@ soon, and will post a follow up when I do.&lt;/p&gt;
 &lt;p&gt;For the most part, that is. Bazaar has &lt;em&gt;lots&lt;/em&gt; of options, and with
 lightweight checkouts and shared repositories you can end up with a single
 working directory you switch in, but the branches are still all separate ones
-at the same layer in the file tree. It&amp;#8217;s handy, but gets confusing.&#160;&lt;a href="#fnref:p19018238488-1" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:humanmade.org,2011-12-07:/blog/manic-pixie-dream-boy/</id>
-    <title type="html">Manic Pixie Dream Boy?</title>
-    <published>2011-12-07T13:19:00Z</published>
-    <updated>2011-12-07T13:19:00Z</updated>
-    <link rel="alternate" href="http://humanmade.org/blog/manic-pixie-dream-boy/"/>
-    <content type="html">&lt;div&gt;&lt;p&gt;So last night in a conversation that was sort of all over the place, I ended up explaining the concept of the &lt;a href="http://en.wikipedia.org/wiki/Manic_Pixie_Dream_Girl"&gt;Manic Pixie Dream Girl&lt;/a&gt; to a friend&lt;sup id="fnref:p13871435934-1"&gt;&lt;a href="#fn:p13871435934-1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;Intrigued, he apparently googled it at home, and found out that it&amp;#8217;s been subverted&amp;#8212;or at least lampshaded&amp;#8212;in a few movies.&lt;/p&gt;
-&lt;p&gt;Which made me wonder. Hollywood loves being &amp;#8220;creative&amp;#8221; by doing the obvious inversion of a trope. So is there a movie with a Manic Pixie Dream Boy? And if not, why not?&lt;/p&gt;
-&lt;div class="footnotes"&gt;
-&lt;hr /&gt;&lt;ol&gt;&lt;li id="fn:p13871435934-1"&gt;
-&lt;p&gt;The Zooey Deschanel show was on. It was contextually relevant, if only just.&#160;&lt;a href="#fnref:p13871435934-1" rev="footnote"&gt;&#8617;&lt;/a&gt;&lt;/p&gt;
+at the same layer in the file tree. It&amp;#8217;s handy, but gets confusing. &lt;a href="#fnref:p19018238488-1" rev="footnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
 </content>
